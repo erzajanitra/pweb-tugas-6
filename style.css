@@ -1,7 +1,10 @@
 .container{
 	font-family: 'Open Sans', sans-serif;
 	padding-top: 8rem;
-	background-color: ;
+	padding-bottom: 8rem;
+	width: 100%;
+	/* padding-left: 10rem; */
+	background-color: black;
 }
 
 @media (min-width: 768px) {
@@ -12,7 +15,7 @@
 
 .omb_login .omb_authTitle {
 	/* padding-top: 8rem; */
-    
+    color: white; 
 	text-align: center;
 	line-height: 100%;
 	padding-bottom: 6rem;
@@ -35,25 +38,26 @@
 .omb_login .omb_loginOr {
 	position: relative;
 	font-size: 1.5em;
-	color: #aaa;
+	color: white;
 	margin-top: 1em;
 	margin-bottom: 1em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
 .omb_login .omb_loginOr .omb_hrOr {
-	background-color: #cdcdcd;
+	background-color: black;
 	height: 1px;
 	margin-top: 0px !important;
 	margin-bottom: 0px !important;
 }
 .omb_login .omb_loginOr .omb_spanOr {
+	color: white;
 	display: block;
 	position: absolute;
 	left: 50%;
 	top: -0.6em;
 	margin-left: -1.5em;
-	background-color: white;
+	background-color: black;
 	width: 3em;
 	text-align: center;
 }			
