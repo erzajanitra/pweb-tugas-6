@@ -4,7 +4,8 @@
 	padding-bottom: 8rem;
 	width: 100%;
 	/* padding-left: 10rem; */
-	background-color: black;
+	/* background-image: "./bg.jpg"; */
+	background: -webkit-linear-gradient(left,black, rgb(72, 72, 179));
 }
 
 @media (min-width: 768px) {
@@ -45,6 +46,14 @@
 	padding-bottom: 0.5em;
 }
 .omb_login .omb_loginOr .omb_hrOr {
+	margin-right: 32rem;
+	background-color: black;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.omb_hrOr2 {
+	margin-left: 32rem;
 	background-color: black;
 	height: 1px;
 	margin-top: 0px !important;
@@ -57,7 +66,8 @@
 	left: 50%;
 	top: -0.6em;
 	margin-left: -1.5em;
-	background-color: black;
+	/* opacity: 0.4;
+	background-color: black; */
 	width: 3em;
 	text-align: center;
 }			
@@ -77,3 +87,67 @@
  	}		
 }
 
+body{
+    background: -webkit-linear-gradient(left,black, rgb(72, 72, 179));
+}
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h2{
+    margin-bottom: 12%;
+    margin-top: -8%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form h3{
+	font-size: 14px;
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: black;
+}
+.contact-form .btnContact {
+
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #0062cc;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+	margin-top: 4rem;
+	margin-left: 62rem;
+}
+.btnContactSubmit
+{
+	align-items: center;
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
